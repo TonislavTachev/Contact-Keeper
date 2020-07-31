@@ -17,5 +17,4 @@
 </ul>
 
 <h3> More information about the application</h3>
-<p> The app uses Context API for it's main state management, it's primarily build with Functional React components rather than class based ones.</p>
-<p> It employs using JWT tokens for authentication and bCrypt for encryption of user passwords. </p>
+<p> The app uses <b>Context API</b> for it's main state management, it's primarily build with <b>Functional React</b> components rather than class based ones. It employs using <b>JWT tokens</b> for authentication and <b>bCrypt</b> for encryption of user passwords. </p>
