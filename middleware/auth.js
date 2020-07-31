@@ -1,6 +1,9 @@
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
+//middleware function which gets placed between HTTP calls to check if the user is authenticated
+//used only for protected routes!
+
 module.exports = function(req,res,next){
     //get token out of the header
     const token = req.header('x-auth-token');
